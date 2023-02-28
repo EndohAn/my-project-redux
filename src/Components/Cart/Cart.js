@@ -8,7 +8,7 @@ const Cart =()=>{
   
     return(<div>
       <img className="cartIcon" src="https://img.icons8.com/external-xnimrodx-lineal-color-xnimrodx/64/000000/external-shopping-cart-cyber-monday-xnimrodx-lineal-color-xnimrodx.png" alt="cartIcon"/> 
- {cartItems.map((cartItem,index)=><CartItem key={index} cartItem={cartItem}/>)}
+ {cartItems.map((cartItem,index)=><CartItem key={index} cartItem ={cartItem}/>)}
  <h3>Total :${totalPrice}</h3>
  </div>)
  

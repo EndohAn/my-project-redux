@@ -22,7 +22,7 @@ img{
 
 }
 
-.categoryButtonSelected:hover {
+.categoryButtonSelected {
 
   background-color: green;
 
