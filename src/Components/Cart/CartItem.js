@@ -16,7 +16,7 @@ const CartItem = ({cartItem})=>{
 
 <p>{cartItem.name}</p>
 <p>{cartItem.quantity} portion(s)</p>
-<p>Price:${cartItem.price*cartItem.quantity}</p>
+<p>Price: ${cartItem.price*cartItem.quantity}</p>
 <span onClick ={()=>dispatch(removeItemFromCart({cartItemId:cartItem.id}))}>
 <img className="icon" src="https://img.icons8.com/material-outlined/48/000000/trash--v1.png" alt="icon"/> 
 </span>

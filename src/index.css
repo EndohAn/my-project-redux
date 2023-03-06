@@ -6,31 +6,43 @@
 .block{
   background-color: rgba(255, 255, 255, 0.5);
   padding: 20px;
+  border: 10px solid #fff;
+
 }
 body{
   background-color: #161616;
 }
 img{
   width: 500px;
+ 
 }
 .cartIcon{
   width: 70px;
 }
+.cart-total{
+  border: 3px solid #fff;
+}
+.category-block{
+  margin-top: 100px;
+}
+
 .categoryButton:hover {
 
-  background-color: #fdeb6b;;
+  background-color: #fdeb6b;
+  border: 3px solid #fff;
 
 }
 
 .categoryButtonSelected {
 
   background-color: green;
+  border: 3px solid #fff;
 
 }
 .categoryButton{
   cursor:pointer;
-  margin: 5px;
-  padding: 5px;
+  margin: 35px;
+  padding: 20px;
 }
 .icon{
   width: 20px;

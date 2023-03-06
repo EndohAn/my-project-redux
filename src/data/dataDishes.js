@@ -61,7 +61,7 @@ const dataDishes =[
     
       price: 15,
     
-      img: 'cheese-balls',
+      img: 'cheese-ball',
     
       name: 'Cheese balls',
     
